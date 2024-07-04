@@ -9,4 +9,6 @@ def operation(a, b, func):
 
 
 print( operation(5, 8, add) )
+
+# we will see some optimized example using lambda function
    
