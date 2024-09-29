@@ -31,3 +31,12 @@ print( operation(5, 8, lambda a, b : a * b))
 strn = "My name is Shibam"
 check = lambda strn : 'a' in strn
 print( check(strn) ) 
+
+
+#* Example 4 --------------------
+
+def power(n):
+   return lambda a: a**n
+
+sqr = power(2)
+print(sqr(5))
