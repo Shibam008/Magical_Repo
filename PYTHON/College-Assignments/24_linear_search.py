@@ -12,5 +12,3 @@ if(linearSearch(arr, target)):
     print("Target found")
 else:
     print("Target not found!")
-
-    
